@@ -12,7 +12,7 @@
 	echo $frutas[2];
 
 	$nascimento = new DateTime();
-	var_dump($nascimento) //mostrar o tipo da variável
+	var_dump($nascimento); //mostrar o tipo da variável
 
 	//LEITURA DE ARQUIVOS NO HD
 	 $arquivo = fopen("exemplo02.php", "r");
