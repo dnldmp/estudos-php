@@ -13,7 +13,7 @@
 			
 			echo "nome do campo: " .$key. "<br>";
 
-			echo "valor do campo" .$value;
+			echo "valor do campo: " .$value;
 
 			echo "<hr>";
 
