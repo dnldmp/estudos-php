@@ -20,7 +20,7 @@
 			break;
 
 		case PHP_SESSION_ACTIVE :
-			echo "as sessões estão habilitadas.";
+			echo "as sessões estão habilitadas. ";
 			break;
 		
 		
