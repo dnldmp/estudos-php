@@ -98,7 +98,7 @@
 		public function setData($data){
 
 			$this->setIdusuario($data['idusuario']);
-			$this->setDeslogin($data['dessenha']);
+			$this->setDeslogin($data['deslogin']);
 			$this->setDessenha($data['dessenha']);
 			$this->setdtCadastro(new DateTime($data['dtcadastro']));
 
@@ -116,6 +116,13 @@
 			if (count($results) > 0) {
 				$this->setData($results[0]);
 			}
+
+		}
+
+		public function __construct($login = "", $password = ""){
+
+			$this->setDeslogin($login);
+			$this->setDessenha($password);
 
 		}
 

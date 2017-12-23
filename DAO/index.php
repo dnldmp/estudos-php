@@ -20,9 +20,7 @@
 	//$usuario->login("root", "12345");
 	//echo $usuario;
 
-	$aluno = new Usuario();
-	$aluno->getDeslogin("aluno");
-	$aluno->getDessenha("@luno");
+	$aluno = new Usuario("aluno", "@lun0");
 	$aluno->insert();
 
 	echo $aluno;
