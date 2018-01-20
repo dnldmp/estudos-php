@@ -18,7 +18,7 @@
 
 	class Programador extends Pessoa {
 
-		pubslic function verDados(){
+		public function verDados(){
 
 			echo get_class($this). "</br>";
 
